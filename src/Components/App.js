@@ -14,7 +14,7 @@ import Signup from './Signup'
 export default function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/eshopper'>
     <Navbar/>
     <Routes>
         <Route path='/' element={<Home/>}></Route>
